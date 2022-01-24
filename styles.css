@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    height: auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --white: hls(0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+.container {
+    max-width: 300px;
+    border:1px solid var(--light-grey);
+    text-align: center;
+    border-radius: 1em;
+    margin:auto;
+    margin-top:5%;
+}
+
+img {
+    width:100%;
+    padding:18px 18px 0px 18px;
+    border-radius: 2em;
+}
+
+.note {
+    padding:0px 15px;
+}
+
+p {
+    font-weight: 400;
+    color: var(--grayish-blue)
+}
